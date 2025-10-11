@@ -1,1 +1,33 @@
-/.metadata/
+# Maven build output
+/target/
+
+# Maven wrapper jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# STS / Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/config files
+.env
+.env.*
+application.properties
+application.yml
+
+# Build artifacts
+*.jar
+*.war
+*.ear
